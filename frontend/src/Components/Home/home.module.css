@@ -48,6 +48,17 @@
 
 @media screen and (max-width:500px) {
     .ishani_sudur {
+        font-size: 2.5em;
+
+    }
+
+    .text {
+        font-size: .5em
+    }
+}
+
+@media screen and (max-width:400px) {
+    .ishani_sudur {
         font-size: 2em;
 
     }
@@ -57,20 +68,9 @@
     }
 }
 
-@media screen and (max-width:350px) {
+@media screen and (max-width:328px) {
     .ishani_sudur {
-        font-size: 1em;
-
-    }
-
-    .text {
-        font-size: .5em
-    }
-}
-
-@media screen and (max-width:320px) {
-    .ishani_sudur {
-        font-size: 1.3em;
+        font-size: 1.5em;
         font-weight: 700;
 
     }
