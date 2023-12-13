@@ -1,0 +1,81 @@
+.home {
+    background: url("../images/home_img.jpg") no-repeat center/cover;
+    display: flex;
+    width: 100%;
+    height: 80vh;
+}
+
+.hold {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* margin: auto; */
+    margin-top: 2em;
+    padding: 1em;
+    color: white;
+}
+
+.ishani_sudur {
+    margin-top: 1em;
+    font-weight: 800;
+    font-size: 4em;
+}
+
+.text {
+    font-weight: 600;
+    font-size: 1em;
+
+}
+
+.date {
+    font-weight: 700;
+    font-size: 1.2em;
+
+}
+
+@media screen and (max-width:720px) {
+    .ishani_sudur {
+        font-size: 3em;
+
+    }
+
+    .text {
+        font-size: 1em
+    }
+}
+
+@media screen and (max-width:500px) {
+    .ishani_sudur {
+        font-size: 2em;
+
+    }
+
+    .text {
+        font-size: .5em
+    }
+}
+
+@media screen and (max-width:350px) {
+    .ishani_sudur {
+        font-size: 1em;
+
+    }
+
+    .text {
+        font-size: .5em
+    }
+}
+
+@media screen and (max-width:320px) {
+    .ishani_sudur {
+        font-size: 1.3em;
+        font-weight: 700;
+
+    }
+
+    .text {
+        font-size: .5em
+    }
+}
