@@ -2,7 +2,8 @@
     background: url("../images/home_img.jpg") no-repeat center/cover;
     display: flex;
     width: 100%;
-    height: 80vh;
+    height: 100vh;
+    /* height: 100svh; */
 }
 
 .hold {
@@ -35,6 +36,99 @@
 
 }
 
+
+
+.story {
+    display: flex;
+    justify-content: center;
+    height: 80%;
+    width: 90%;
+    margin: auto;
+    margin-top: 1em;
+
+}
+
+.story img {
+    width: 100%;
+    height: 100%;
+    border-radius: 1.5em;
+    filter: drop-shadow(1.5em 1.6em 1em rgba(226, 189, 195, 0.438));
+    object-fit: contain;
+
+
+}
+
+.photos {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    width: 60%;
+
+}
+
+.column1,
+.column4 {
+    align-self: center;
+    width: 50%;
+}
+
+.column2 {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-self: center;
+
+}
+
+
+.column3 {
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    font-size: .7em;
+    line-height: 1.7em;
+    gap: 1.2em;
+}
+
+.footer {
+    display: flex;
+    background-color: rgb(240, 234, 227);
+    height: 15vh;
+    color: black;
+    justify-content: center;
+    padding: 1em;
+    font-size: .7em;
+    font-weight: 150;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+@media screen and (max-width:900px) {
+
+    .photos {
+        /* flex-wrap: wrap; */
+        width: 100%;
+
+    }
+
+    .story {
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .column3 {
+        width: 80%;
+        align-items: center;
+    }
+
+}
+
 @media screen and (max-width:720px) {
     .ishani_sudur {
         font-size: 3em;
@@ -42,7 +136,23 @@
     }
 
     .text {
-        font-size: 1em
+        font-size: 1.5em;
+        font-weight: 500;
+    }
+
+    .home {
+        height: 75vh;
+    }
+
+    .photos {
+        /* flex-wrap: wrap; */
+        /* width: 90%; */
+
+    }
+
+    .column3 {
+        width: 100%;
+        align-items: center;
     }
 }
 
@@ -53,18 +163,41 @@
     }
 
     .text {
-        font-size: .5em
+        font-size: 1.2em;
+        font-weight: 550;
+    }
+
+    .home {
+        height: 65vh;
+    }
+
+    .story {
+        width: 100%;
+    }
+
+    .column3 {
+        width: 70%;
+        align-items: center;
     }
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:401px) {
     .ishani_sudur {
         font-size: 2em;
 
     }
 
     .text {
-        font-size: .5em
+        font-size: 1em
+    }
+
+    .home {
+        height: 55vh;
+    }
+
+    .column3 {
+        width: 68%;
+        align-items: center;
     }
 }
 
@@ -76,6 +209,15 @@
     }
 
     .text {
-        font-size: .5em
+        font-size: .8em
+    }
+
+    .home {
+        height: 45vh;
+    }
+
+    .column3 {
+        width: 50%;
+        align-items: center;
     }
 }
