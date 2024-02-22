@@ -9,6 +9,7 @@ import { CiGift } from "react-icons/ci";
 import { MdQuestionAnswer } from "react-icons/md";
 import { IoMenu } from "react-icons/io5";
 import { FaWindowClose } from "react-icons/fa";
+import { FaEnvelope } from "react-icons/fa";
 
 import logo from '../images/logo.png'
 const Navbar = () => {
@@ -22,7 +23,7 @@ const Navbar = () => {
             <nav>
                 <ul className={nav ? [styles.menu, styles.active].join(' ') :
                     [styles.menu]}>
-                    <li>
+                    {/* <li>
                         <Link to='/contacts'>
                             <TiContacts size={25} style={{ marginTop: '6px' }} />
                         </Link>
@@ -41,8 +42,12 @@ const Navbar = () => {
                         <Link to='/faq'>
                             <MdQuestionAnswer size={25} style={{ marginTop: '6px' }} />
                         </Link>
+                    </li> */}
+                    <li>
+                        <Link to='/save'>
+                            <FaEnvelope size={25} style={{ marginTop: '6px' }} />
+                        </Link>
                     </li>
-
                 </ul>
             </nav>
 

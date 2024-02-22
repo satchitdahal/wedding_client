@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+
+.hold_pic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(255, 253, 253);
+}
+
+.pic {
+
+    background: url("../images/save_1.png") no-repeat center/cover;
+    /* height: 70vh; */
+    width: 90%;
+    height: 90%;
+
+}
+
+
+.texts {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Libre Baskerville', serif;
+    margin-top: 1em;
+}
+
+.save_text {
+    word-spacing: .3em;
+    letter-spacing: .5em;
+    font-weight: 500;
+
+}
+
+.save_date {
+    word-spacing: .1em;
+    letter-spacing: .1em;
+    font-weight: 400;
+    font-size: 1em;
+}
+
+
+
+.hold_hex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.hold_hex div {
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    clip-path: polygon(0 25%, 50% 0, 100% 25%, 100%, 75%, 50% 100%, 0 75%);
+}
