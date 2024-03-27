@@ -302,7 +302,7 @@
 
 }
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:900px) and (orientation: portrait) {
 
     .photos {
         /* flex-wrap: wrap; */
@@ -325,7 +325,7 @@
 
 }
 
-@media screen and (max-width:720px) {
+@media screen and (max-width:720px) and (orientation: portrait) {
     .ishani_sudur {
         font-size: 3em;
 
@@ -400,7 +400,7 @@
     }
 }
 
-@media screen and (max-width:680px) {
+@media screen and (max-width:680px)and (orientation: portrait) {
     .ishani_sudur {
         font-size: 3em;
 
@@ -475,7 +475,7 @@
     }
 }
 
-@media screen and (max-width:630px) {
+@media screen and (max-width:630px)and (orientation: portrait) {
     .ishani_sudur {
         font-size: 3em;
 
@@ -550,7 +550,7 @@
     }
 }
 
-@media screen and (max-width:555px) {
+@media screen and (max-width:555px) and (orientation: portrait) {
     .ishani_sudur {
         font-size: 3em;
 
@@ -626,7 +626,7 @@
 }
 
 /* this is about the phone screen size */
-@media screen and (max-width:500px) {
+@media screen and (max-width:500px)and (orientation: portrait) {
     .ishani_sudur {
         font-size: 2.5em;
         /* margin-top: -2em; */
@@ -695,7 +695,7 @@
     }
 }
 
-@media screen and (max-width:443px) {
+@media screen and (max-width:443px) and (orientation: portrait) {
     .ishani_sudur {
         font-size: 2.5em;
         /* margin-top: -2em; */
@@ -764,7 +764,7 @@
     }
 }
 
-@media screen and (max-width:430px) {
+@media screen and (max-width:430px) and (orientation: portrait) {
     .ishani_sudur {
         margin-top: -4em;
         font-size: 2.3em;
@@ -849,7 +849,7 @@
 }
 
 
-@media screen and (max-width:368px) {
+@media screen and (max-width:368px) and (orientation: portrait) {
     .ishani_sudur {
         font-size: 1.5em;
         font-weight: 700;
@@ -873,7 +873,7 @@
     }
 }
 
-@media screen and (max-width:350px) {
+@media screen and (max-width:350px) and (orientation: portrait) {
     .ishani_sudur {
         font-size: 1.5em;
         font-weight: 700;
