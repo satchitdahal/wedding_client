@@ -10,7 +10,7 @@
 .home {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     overflow: hidden;
     /* Ensures video doesn't overflow */
 }
@@ -35,33 +35,75 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+    height: 70vh;
     /* margin: auto; */
     margin-top: 2em;
     padding: 1em;
-    color: white;
+    color: black;
 }
 
 .ishani_sudur {
-    margin-top: 1em;
-    font-weight: 800;
+    /* margin-top: -7em; */
+    margin-top: 2em;
+    font-weight: 500;
     font-size: 4em;
+    letter-spacing: .06em;
 }
 
-.text {
-    font-weight: 600;
+.time {
+    margin-top: 1em;
+    font-weight: 500;
     font-size: 1em;
+    letter-spacing: .05em;
+    ;
 
 }
 
 .date {
-    font-weight: 700;
-    font-size: 1.2em;
+    margin-top: 1em;
+    font-weight: 400;
+    font-size: 1em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
+.rsvp button {
+    margin-top: 1.5em;
+    width: 100%;
+    background-color: hsla(60, 3%, 36%, 1);
+    border: none;
+    color: white;
+    box-shadow: 3px 2px 1px 1px rgb(168, 163, 163);
 
+
+}
+
+.reception {
+    margin-top: 3em;
+    text-align: center;
+}
+
+.wedding {
+    margin-top: 1em;
+    text-align: center;
+    margin-bottom: 2em;
+}
 
 .story {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 100%; */
+    width: 100%;
+    /* margin: auto; */
+    margin-top: -3em;
+
+
+
+
+}
+
+/* .story {
     display: flex;
     justify-content: center;
     height: 80%;
@@ -70,7 +112,7 @@
     margin-top: 1em;
 
 
-}
+} */
 
 .story img {
     width: 100%;
@@ -105,6 +147,39 @@
 
 }
 
+.modalContent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.modalContent div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.modalContent img {
+    width: 90%;
+    border-radius: 2em;
+}
+
+.modalContent button {
+    padding: .5em;
+    background-color: rgb(83, 78, 78);
+    color: wheat;
+    border-radius: 1em;
+
+}
+
+
+
+
 
 .column3 {
     display: flex;
@@ -117,9 +192,89 @@
     gap: 1.2em;
 }
 
+/* .fake_body {
+    margin: 0;
+    min-height: 100vh;
+    display: grid;    place-content: center;
+
+
+}
+
+.gallery {
+    --s: 150px;
+    --g: 10px margin:calc(var--s) + var(--g);
+}
+
+.gallery>img {
+    grid: 1/1;
+    width: var(--s);
+    aspect-ratio: 1.15;
+    object-fit: cover;
+    clip-path: polygon(25% 0%,
+            75% 0%,
+            100% 50%,
+            75% 100%,
+            25% 100%,
+            0 50%);
+    transform: translate(var(--_x, 0),
+            var(--y, 0)) scale(var(--_t, 1));
+
+    cursor: pointer;
+
+}
+.gallery > img:nth-child(1) {
+    --_y: calc(-100% - var(--g))
+}
+.gallery > img:nth-child(7) {
+    --_y: calc(-100% + var(--g))
+}
+.gallery > img:nth-child(3),
+.gallery > img:nth-child(5) {
+    --_x: calc(-75% - .87*var(--g))
+}
+.gallery > img:nth-child(4),
+.gallery > img:nth-child(6) {
+    --_x: calc(75% - .5*var(--g))
+}
+.gallery > img:nth-child(3), */
+
+
+/* .story img {
+    width: 100%;
+    height: 100%;
+    border-radius: 1.5em;
+    filter: drop-shadow(1.5em 1.6em 1em rgba(226, 189, 195, 0.438));
+    object-fit: contain;
+
+
+} */
+
+.story h1 {
+    font-weight: 500;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+
+
+}
+
+.story h2 {
+    font-weight: 400;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+}
+
+.story h3 {
+    font-weight: 300;
+    font-size: 1em;
+    letter-spacing: 2px;
+}
+
 .footer {
     display: flex;
-    background-color: rgb(240, 234, 227);
+    margin-top: 2em;
+    /* background-color: rgb(245, 240, 234); */
+    flex-direction: column;
+    background-color: rgb(218, 216, 212);
     height: 15vh;
     color: black;
     justify-content: center;
@@ -131,6 +286,20 @@
     font-weight: 150;
     align-items: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.footer h1 {
+    color: black;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.footer h2 {
+    font-weight: lighter;
+    font-weight: 300;
+    letter-spacing: 5px;
+
+
 }
 
 @media screen and (max-width:900px) {
@@ -162,13 +331,56 @@
 
     }
 
+    .times {
+        margin-bottom: 1em;
+    }
+
+    .rsvp button {
+        padding: 1em;
+        width: 100%;
+        text-align: center;
+    }
+
+    .reception {
+        margin: 2em;
+        margin-top: 4em;
+    }
+
+    .wedding {
+        margin-bottom: 7em;
+    }
+
+    .day {
+        font-weight: 400;
+        font-size: 1.3em;
+        word-spacing: 3px;
+        letter-spacing: 2px;
+    }
+
+    .dates {
+        word-spacing: 3px;
+        padding: .2em;
+        letter-spacing: 2px;
+    }
+
+    .addy {
+
+        font-size: .7em;
+    }
+
+    .addi {
+
+        font-size: .7em;
+    }
+
+
     .text {
         font-size: 1.5em;
         font-weight: 500;
     }
 
     .home {
-        height: 75vh;
+        height: 48vh;
     }
 
     .photos {
@@ -178,15 +390,283 @@
     }
 
     .column3 {
-        width: 100%;
+        width: 65%;
         align-items: center;
+    }
+
+    .story {
+        width: 100%;
+        margin-top: 1em;
     }
 }
 
+@media screen and (max-width:680px) {
+    .ishani_sudur {
+        font-size: 3em;
+
+    }
+
+    .times {
+        margin-bottom: 1em;
+    }
+
+    .rsvp button {
+        padding: 1em;
+        width: 100%;
+        text-align: center;
+    }
+
+    .reception {
+        margin: 2em;
+        margin-top: 4em;
+    }
+
+    .wedding {
+        margin-bottom: 7em;
+    }
+
+    .day {
+        font-weight: 400;
+        font-size: 1.3em;
+        word-spacing: 3px;
+        letter-spacing: 2px;
+    }
+
+    .dates {
+        word-spacing: 3px;
+        padding: .2em;
+        letter-spacing: 2px;
+    }
+
+    .addy {
+
+        font-size: .7em;
+    }
+
+    .addi {
+
+        font-size: .7em;
+    }
+
+
+    .text {
+        font-size: 1.5em;
+        font-weight: 500;
+    }
+
+    .home {
+        height: 45vh;
+    }
+
+    .photos {
+        /* flex-wrap: wrap; */
+        /* width: 90%; */
+
+    }
+
+    .column3 {
+        width: 65%;
+        align-items: center;
+    }
+
+    .story {
+        width: 100%;
+        margin-top: 1em;
+    }
+}
+
+@media screen and (max-width:630px) {
+    .ishani_sudur {
+        font-size: 3em;
+
+    }
+
+    .times {
+        margin-bottom: 1em;
+    }
+
+    .rsvp button {
+        padding: 1em;
+        width: 100%;
+        text-align: center;
+    }
+
+    .reception {
+        margin: 2em;
+        margin-top: 4em;
+    }
+
+    .wedding {
+        margin-bottom: 7em;
+    }
+
+    .day {
+        font-weight: 400;
+        font-size: 1.3em;
+        word-spacing: 3px;
+        letter-spacing: 2px;
+    }
+
+    .dates {
+        word-spacing: 3px;
+        padding: .2em;
+        letter-spacing: 2px;
+    }
+
+    .addy {
+
+        font-size: .7em;
+    }
+
+    .addi {
+
+        font-size: .7em;
+    }
+
+
+    .text {
+        font-size: 1.5em;
+        font-weight: 500;
+    }
+
+    .home {
+        height: 42vh;
+    }
+
+    .photos {
+        /* flex-wrap: wrap; */
+        /* width: 90%; */
+
+    }
+
+    .column3 {
+        width: 65%;
+        align-items: center;
+    }
+
+    .story {
+        width: 100%;
+        margin-top: 1em;
+    }
+}
+
+@media screen and (max-width:555px) {
+    .ishani_sudur {
+        font-size: 3em;
+
+    }
+
+    .times {
+        margin-bottom: 1em;
+    }
+
+    .rsvp button {
+        padding: 1em;
+        width: 100%;
+        text-align: center;
+    }
+
+    .reception {
+        margin: 2em;
+        margin-top: 4em;
+    }
+
+    .wedding {
+        margin-bottom: 7em;
+    }
+
+    .day {
+        font-weight: 400;
+        font-size: 1.3em;
+        word-spacing: 3px;
+        letter-spacing: 2px;
+    }
+
+    .dates {
+        word-spacing: 3px;
+        padding: .2em;
+        letter-spacing: 2px;
+    }
+
+    .addy {
+
+        font-size: .7em;
+    }
+
+    .addi {
+
+        font-size: .7em;
+    }
+
+
+    .text {
+        font-size: 1.5em;
+        font-weight: 500;
+    }
+
+    .home {
+        height: 38vh;
+    }
+
+    .photos {
+        /* flex-wrap: wrap; */
+        /* width: 90%; */
+
+    }
+
+    .column3 {
+        width: 70%;
+        align-items: center;
+    }
+
+    .story {
+        width: 100%;
+        margin-top: 1.7em;
+    }
+}
+
+/* this is about the phone screen size */
 @media screen and (max-width:500px) {
     .ishani_sudur {
         font-size: 2.5em;
+        /* margin-top: -2em; */
 
+    }
+
+    .times {
+        margin-bottom: 1em;
+    }
+
+    .reception {
+        margin: 2em;
+        margin-top: 4em;
+    }
+
+    .wedding {
+        margin-bottom: 7em;
+    }
+
+    .day {
+        font-weight: 400;
+        font-size: 1.3em;
+        word-spacing: 3px;
+        letter-spacing: 2px;
+    }
+
+    .dates {
+        word-spacing: 3px;
+        padding: .2em;
+        letter-spacing: 2px;
+    }
+
+    .addy {
+
+        font-size: .7em;
+    }
+
+    .addi {
+
+        font-size: .7em;
     }
 
     .text {
@@ -195,43 +675,186 @@
     }
 
     .home {
-        height: 65vh;
+        height: 31vh;
     }
 
     .story {
         width: 100%;
+        margin-top: 1em;
+    }
+
+    .column3 {
+        width: 75%;
+        align-items: center;
+    }
+
+    .rsvp button {
+        padding: 1em;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:443px) {
+    .ishani_sudur {
+        font-size: 2.5em;
+        /* margin-top: -2em; */
+
+    }
+
+    .times {
+        margin-bottom: 1em;
+    }
+
+    .reception {
+        margin: 2em;
+        margin-top: 4em;
+    }
+
+    .wedding {
+        margin-bottom: 7em;
+    }
+
+    .day {
+        font-weight: 400;
+        font-size: 1.3em;
+        word-spacing: 3px;
+        letter-spacing: 2px;
+    }
+
+    .dates {
+        word-spacing: 3px;
+        padding: .2em;
+        letter-spacing: 2px;
+    }
+
+    .addy {
+
+        font-size: .7em;
+    }
+
+    .addi {
+
+        font-size: .7em;
+    }
+
+    .text {
+        font-size: 1.2em;
+        font-weight: 550;
+    }
+
+    .home {
+        height: 30vh;
+    }
+
+    .story {
+        width: 100%;
+        margin-top: 1em;
     }
 
     .column3 {
         width: 70%;
         align-items: center;
     }
+
+    .rsvp button {
+        padding: 1em;
+        width: 100%;
+        text-align: center;
+    }
 }
 
-@media screen and (max-width:401px) {
+@media screen and (max-width:430px) {
     .ishani_sudur {
-        font-size: 2em;
+        margin-top: -4em;
+        font-size: 2.3em;
+        font-weight: 400;
 
-    }
-
-    .text {
-        font-size: 1em
     }
 
     .home {
-        height: 55vh;
+        height: 27vh;
+    }
+
+    .column3 {
+        /* width: 30%; */
+        align-items: flex-start;
+
+    }
+
+
+    .hold {
+        margin-top: 11em;
+    }
+
+    .story h1 {
+        color: black;
+    }
+
+    .date {
+        font-weight: 100;
+        letter-spacing: 3px;
+
+    }
+
+    .time {
+        margin-bottom: 2em;
+    }
+
+    .times {
+        margin-bottom: 1em;
+    }
+
+    .reception {
+        margin: 2em;
+        margin-top: 4em;
+    }
+
+    .wedding {}
+
+    .day {
+        font-weight: 400;
+        font-size: 1.3em;
+        word-spacing: 3px;
+        letter-spacing: 2px;
+    }
+
+    .dates {
+        word-spacing: 3px;
+        padding: .2em;
+        letter-spacing: 2px;
+    }
+
+    .addy {
+
+        font-size: .7em;
+    }
+
+    .addi {
+
+        font-size: .7em;
+    }
+
+    .rsvp button {
+        padding: 1em;
+        width: 100%;
+        text-align: center;
     }
 
     .column3 {
         width: 68%;
         align-items: center;
     }
+
 }
 
-@media screen and (max-width:328px) {
+
+@media screen and (max-width:368px) {
     .ishani_sudur {
         font-size: 1.5em;
         font-weight: 700;
+        letter-spacing: 5px;
+        margin-top: -9em;
 
     }
 
@@ -240,11 +863,36 @@
     }
 
     .home {
-        height: 45vh;
+        height: 25vh;
     }
 
     .column3 {
-        width: 50%;
+        width: 75%;
         align-items: center;
+
+    }
+}
+
+@media screen and (max-width:350px) {
+    .ishani_sudur {
+        font-size: 1.5em;
+        font-weight: 700;
+        letter-spacing: 5px;
+        margin-top: -9em;
+
+    }
+
+    .text {
+        font-size: .8em
+    }
+
+    .home {
+        height: 22vh;
+    }
+
+    .column3 {
+        width: 75%;
+        align-items: center;
+
     }
 }

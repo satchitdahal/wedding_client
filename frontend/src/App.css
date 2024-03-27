@@ -15,5 +15,6 @@ a {
 body {
   font-size: 1.2 rem;
   line-height: 1.3;
-  font-family: 'Kalnia', serif;
+  font-family: 'Libre Baskerville', serif;
+  background-color: hsla(36, 33%, 94%, 1);
 }
