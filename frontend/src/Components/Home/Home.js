@@ -91,12 +91,12 @@ const Home = () => {
                 <div className={styles.ishani_sudur}>
                     <p>ISHANI & SUDUR</p>
                 </div>
-                <div className={styles.date}>
+                {/* <div className={styles.date}>
                     <p>JULY 11, 2024 • KENT, WA</p>
                 </div>
                 <div className={styles.time}>
                     <p>2:00 PM - 11:00 PM </p>
-                </div>
+                </div> */}
                 <div className={styles.rsvp}>
                     <button onClick={handleRSVP}><MdOutlineRsvp size={35} /></button>
                 </div>
@@ -136,18 +136,18 @@ const Home = () => {
 
 
                 <div className={styles.reception}>
-                    <p className={styles.day}>WEDDING RECEPTION</p>
+                    <p className={styles.day}>WEDDING DAY</p>
                     <p className={styles.dates}>JULY 11, 2024</p>
-                    <p className={styles.times}>6:00 PM - 11:00 PM</p>
-                    <p className={styles.addi}>Kent Event Center</p>
-                    <p className={styles.addy}>10120 SE 260th st, Kent, WA, 98030</p>
+                    <p className={styles.times}>8:00 AM - 3:00 PM</p>
+                    <p className={styles.addy}>12612 SE 261st St, KENT, WA, 98030</p>
+
                 </div>
                 <div className={styles.wedding}>
-                    <p className={styles.day}>WEDDING DAY</p>
-                    <p className={styles.dates}>JULY 10, 2024</p>
+                    <p className={styles.day}>WEDDING RECEPTION</p>
+                    <p className={styles.dates}>JULY 12, 2024</p>
                     <p className={styles.times}>8:00 AM - 3:00 PM</p>
-
-                    <p className={styles.addy}>12612 SE 261st st, Kent, WA, 98030</p>
+                    <p className={styles.addi}>Kent Event Center</p>
+                    <p className={styles.addy}>10120 SE 260th St, KENT, WA, 98030</p>
                 </div>
 
 
