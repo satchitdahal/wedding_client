@@ -98,7 +98,7 @@ const Home = () => {
                     <p>2:00 PM - 11:00 PM </p>
                 </div> */}
                 <div className={styles.rsvp}>
-                    <button onClick={handleRSVP}><MdOutlineRsvp size={35} /></button>
+                    <button onClick={handleRSVP}><MdOutlineRsvp size={36} /></button>
                 </div>
                 <div className={styles.pls_div}>
                     <p className={styles.pls_p}>
