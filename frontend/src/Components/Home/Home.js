@@ -100,6 +100,9 @@ const Home = () => {
                 <div className={styles.rsvp}>
                     <button onClick={handleRSVP}><MdOutlineRsvp size={35} /></button>
                 </div>
+                <div className={styles.pls_div}>
+                    <p className={styles.pls_p}>
+                        Please RSVP by April 15th</p>                </div>
                 <Modal
                     isOpen={underConstruction}
                     onRequestClose={handleCloseModal}
