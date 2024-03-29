@@ -102,7 +102,7 @@ const Home = () => {
                 </div>
                 <div className={styles.pls_div}>
                     <p className={styles.pls_p}>
-                        Please RSVP by April 15th</p>                </div>
+                        Please RSVP by April 15thh</p>                </div>
                 <Modal
                     isOpen={underConstruction}
                     onRequestClose={handleCloseModal}
