@@ -28,9 +28,8 @@ const Home = () => {
     const [underConstruction, setUnderConstruction] = useState(false);
 
     const handleRSVP = (e) => {
-        e.preventDefault()
-        console.log("hello")
-        setUnderConstruction(true);
+        e.preventDefault();
+        window.location.href = 'https://www.zola.com/wedding/ishani-sudur';
     };
     return (
 
@@ -97,6 +96,7 @@ const Home = () => {
                 <div className={styles.time}>
                     <p>2:00 PM - 11:00 PM </p>
                 </div> */}
+
                 <div className={styles.rsvp}>
                     <button onClick={handleRSVP}><MdOutlineRsvp size={36} /></button>
                 </div>
