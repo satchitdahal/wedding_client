@@ -1317,6 +1317,109 @@
 
 }
 
+@media screen and (min-width:1301px) and (max-width:1399px) {
+
+
+    .ishani_sudur {
+        font-size: 5em;
+        font-weight: 500;
+        letter-spacing: 17px;
+        /* margin-top: 4.9em; */
+        /* margin-top: -2em; */
+
+    }
+
+    .rsvp button {
+        padding: 3.5em;
+        width: 100%;
+        text-align: center;
+    }
+
+    .pls_p {
+        margin-top: 2em;
+        font-weight: 400;
+        font-size: 1em;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+
+    .reception {
+        margin-top: 4em;
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    .wedding {
+        margin-top: 2em;
+        text-align: center;
+        margin-bottom: 2em;
+        font-size: 1.5em;
+    }
+
+    .day {
+        font-weight: 400;
+        font-size: 1.3em;
+        word-spacing: 3px;
+        letter-spacing: 2px;
+    }
+
+    .dates {
+        word-spacing: 3px;
+        padding: .2em;
+        letter-spacing: 2px;
+    }
+
+    .addy {
+
+        font-size: .7em;
+    }
+
+    .addi {
+
+        font-size: .7em;
+    }
+
+
+    .photos {
+        width: 85%;
+
+    }
+
+    .times {
+        margin-bottom: 1em;
+    }
+
+
+    .text {
+        font-size: 1.2em;
+        font-weight: 550;
+    }
+
+    .home {
+        height: 50vh;
+    }
+
+    .story {
+
+
+        width: 100%;
+        margin-top: 1em;
+        font-size: 1.5em;
+    }
+
+    .column3 {
+        width: 70%;
+        align-items: center;
+    }
+
+    .footer {
+        font-size: .7em;
+
+    }
+
+
+}
+
 @media screen and (min-width:1400px) and (max-width:2000px) {
 
 
