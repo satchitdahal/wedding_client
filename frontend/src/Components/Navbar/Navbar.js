@@ -15,6 +15,12 @@ import logo from '../images/logo.png'
 const Navbar = () => {
     const [nav, setNav] = useState(false);
 
+    // adding
+    const handleLinkClick = () => {
+        setNav(false); // Close the dropdown menu when a link is clicked
+    };
+    // 
+
     return (
         <header className={styles.navbar}>
             <Link to='/'>
@@ -23,31 +29,16 @@ const Navbar = () => {
             <nav>
                 <ul className={nav ? [styles.menu, styles.active].join(' ') :
                     [styles.menu]}>
-                    {/* <li>
-                        <Link to='/contacts'>
-                            <TiContacts size={25} style={{ marginTop: '6px' }} />
-                        </Link>
-                    </li>
+
                     <li>
-                        <Link to='/locations'>
-                            <IoLocationSharp size={25} style={{ marginTop: '6px' }} />
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to='/registry'>
+                        {/* <Link to='/registry'>
+                            <CiGift size={25} style={{ marginTop: '6px' }} />
+                        </Link> */}
+                        <Link to='/registry' onClick={handleLinkClick}>
                             <CiGift size={25} style={{ marginTop: '6px' }} />
                         </Link>
                     </li>
-                    <li>
-                        <Link to='/faq'>
-                            <MdQuestionAnswer size={25} style={{ marginTop: '6px' }} />
-                        </Link>
-                    </li> */}
-                    <li>
-                        <Link to='/save'>
-                            <FaEnvelope size={25} style={{ marginTop: '6px' }} />
-                        </Link>
-                    </li>
+
                 </ul>
             </nav>
 
