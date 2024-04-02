@@ -4,6 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
     gap: 1em;
     font-family: 'Libre Baskerville', serif;
     background-color: hsla(36, 33%, 94%, 1);

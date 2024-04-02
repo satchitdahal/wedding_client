@@ -7,6 +7,7 @@ const Registry = () => {
     return (
         <>
             <div className={styles.box}>
+                <h2>Newlywed Fund</h2>
                 <div className={styles.registry}>
 
                     <h4>
