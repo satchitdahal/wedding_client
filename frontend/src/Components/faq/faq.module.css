@@ -3,13 +3,24 @@
     flex-direction: column;
     gap: 1em;
     padding: 1em;
+    margin-bottom: 1em;
     justify-content: center;
     align-items: center;
     font-family: 'Libre Baskerville', serif;
+
 }
 
 .faq_questions h3 {
-    font-weight: 400;
+    font-weight: 300;
+}
+
+.faq_questions h2 {
+    font-weight: 200;
+}
+
+.faq_questions h1 {
+    font-weight: 550;
+    letter-spacing: 1px;
 }
 
 .faq_header {
