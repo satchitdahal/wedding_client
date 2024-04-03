@@ -1,0 +1,53 @@
+.faq_main {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.faq_questions h3 {
+    font-weight: 400;
+}
+
+.faq_header {
+
+    text-align: center;
+}
+
+.faq_links {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+
+
+}
+
+.faq_links div {
+    /* width: 400px;
+    height: 209px; */
+    border: 10px solid rgb(226, 230, 219);
+
+    transition: border-color 0.3s ease;
+    width: 70%;
+    margin: auto;
+
+}
+
+
+
+img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.faq_links div:hover {
+    border-color: rgba(216, 132, 36, 0.5);
+    /* Change border color on hover */
+}
+
+.h1 {
+    text-align: center;
+}

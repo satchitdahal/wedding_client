@@ -9,6 +9,7 @@ import { CiGift } from "react-icons/ci";
 import { MdQuestionAnswer } from "react-icons/md";
 import { IoMenu } from "react-icons/io5";
 import { FaWindowClose } from "react-icons/fa";
+import { FaQuestion } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
 
 import logo from '../images/logo.png'
@@ -37,6 +38,16 @@ const Navbar = () => {
                         <Link to='/registry' onClick={handleLinkClick}>
                             <CiGift size={25} style={{ marginTop: '6px' }} />
                         </Link>
+
+                    </li>
+                    <li>
+                        {/* <Link to='/registry'>
+                            <CiGift size={25} style={{ marginTop: '6px' }} />
+                        </Link> */}
+                        <Link to='/faq' onClick={handleLinkClick}>
+                            <FaQuestion size={25} style={{ marginTop: '6px' }} />
+                        </Link>
+
                     </li>
 
                 </ul>

@@ -25,11 +25,15 @@ const Registry = () => {
                     </h4>
                 </div>
 
+
                 <div className={styles.img_div}>
+
                     <img className={styles.ven_img} src={venmo}>
                     </img>
 
+
                 </div>
+
 
 
 
