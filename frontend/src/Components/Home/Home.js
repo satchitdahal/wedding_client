@@ -141,14 +141,14 @@ const Home = () => {
                 <div className={styles.reception}>
                     <p className={styles.day}>WEDDING DAY</p>
                     <p className={styles.dates}>JULY 11, 2024</p>
-                    <p className={styles.times}>8:00 AM - 3:00 PM</p>
+                    <p className={styles.times}>10: 00 AM - 4:00 PM</p>
                     <p className={styles.addy}>12612 SE 261st St, KENT, WA, 98030</p>
 
                 </div>
                 <div className={styles.wedding}>
                     <p className={styles.day}>WEDDING RECEPTION</p>
                     <p className={styles.dates}>JULY 12, 2024</p>
-                    <p className={styles.times}>6:00 PM - 11:00 PM</p>
+                    <p className={styles.times}>5:00 PM - 11:00 PM</p>
                     <p className={styles.addi}>Kent Event Center</p>
                     <p className={styles.addy}>10120 SE 260th St, KENT, WA, 98030</p>
                 </div>
@@ -167,14 +167,14 @@ const Home = () => {
                 <br></br>
                 <div className={styles.column3}>
                     <p>
-                        Welcome to our love story! We're Ishani and Sudur, and we're thrilled
-                        to share the extraordinary journey that has brought us to this moment of joy and anticipation.
+                        Welcome to Ishani and Sudur's love story! We're Ishani and Sudur! We're thrilled
+                        to share the journey that has brought us to this moment of joy.
                         <br></br>
                         <br></br>
                         Our story began in 2010, when our paths first crossed through mutual friends.
                         Little did we know then that our lives would intertwine in the most beautiful ways.
-                        During high school, Ishani's passion for fitness led her to teach a Zumba class for the Nepali community in DFW.
-                        It was during one of these classes that Sudur, accompanying his mom to the exercise session,
+                        During high school, Ishani was teaching a Zumba class for the Nepali community in DFW.
+                        It was during one of these classes that Sudur, accompanying his mom to Zumba,
                         first laid eyes on Ishani and was immediately captivated.
                         Though our paths briefly diverged due to our youth, fate had other plans in store.
 
@@ -197,18 +197,18 @@ const Home = () => {
 
                 </div>
                 <div className={styles.column3}>
-                    Throughout college, despite the miles that separated us—Ishani in Boulder, Colorado and Sudur in College Station, TX—we reconnected. What began as a friendship blossomed into something deeper, as we discovered that we complemented each other perfectly. Our first date, a magical day spent at the enchanting Botanical Gardens in Denver, Colorado, marked the beginning of a beautiful journey together. In these early years we spent many hours exploring the beautiful hikes that Colorado had to offer with our friends.
+                    Throughout college, despite the miles that separated us—Ishani in Boulder, Colorado and Sudur in College Station, TX—we reconnected. What began as a friendship blossomed into something deeper, as we discovered that we complemented each other perfectly. Our first date, a magical day spent at the Botanical Gardens in Denver, Colorado, marked the beginning of a beautiful journey together. In these early years we explored the beautiful hikes that Colorado had to offer with our friends.
                     <br>
                     </br>
                     <br></br>
-                    Our shared love for adventure led us to learn how to snowboard together—a journey filled with laughter, occasional falls, and endless fun. Though Sudur may have had a head start, Ishani fearlessly tackled each slope, proving that together, we could conquer anything.
+                    Our shared love for adventure led us to learn how to snowboard together—a journey filled with laughter, falls, and endless fun. Though Sudur may have had a head start, Ishani fearlessly tackled each slope, proving that together, we could conquer anything.
 
-                    The pinnacle of our love story came when Sudur proposed to Ishani at Whistler Mountain in Vancouver, BC. Surrounded by Ishani's closest loved ones—her sisters and cousins—the moment was nothing short of magical. Since then, we've joyfully embraced the merging of our lives, relishing in the warmth of our families coming together to celebrate our love.
+                    The pinnacle of our love story came when Sudur proposed to Ishani at Whistler Mountain in Vancouver, BC. Surrounded by Ishani's closest loved ones—her sisters and cousins—the moment was nothing short of magical. Since then, we've embraced the merging of our lives, relishing in the warmth of our families coming together to celebrate us.
                     <br>
                     </br>
                     <br>
                     </br>
-                    As we eagerly await our wedding day, we're filled with gratitude for the journey that has brought us here. Our love story is a testament to the power of fate, friendship, and unwavering love. Together, hand in hand, we look forward to a lifetime of adventure, laughter, and shared dreams.
+                    As we await our wedding day, we're filled with gratitude for the journey that has brought us here. Our love story is a testament to the power of fate, friendship, and unwavering love. Together, hand in hand, we look forward to a lifetime of adventure, laughter, and shared dreams.
                     <br>
                     </br>
                     <br></br>
