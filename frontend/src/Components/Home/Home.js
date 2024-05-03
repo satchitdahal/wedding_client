@@ -141,8 +141,9 @@ const Home = () => {
                 <div className={styles.reception}>
                     <p className={styles.day}>WEDDING DAY</p>
                     <p className={styles.dates}>JULY 11, 2024</p>
-                    <p className={styles.times}>10: 00 AM - 4:00 PM</p>
-                    <p className={styles.addy}>12612 SE 261st St, KENT, WA, 98030</p>
+                    <p className={styles.times}>10:00 AM - 4:00 PM</p>
+                    <p className={styles.addy}>12423 SE 280th St,
+                        KENT, WA 98030</p>
 
                 </div>
                 <div className={styles.wedding}>
