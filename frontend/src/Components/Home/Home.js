@@ -151,7 +151,7 @@ const Home = () => {
                     <p className={styles.dates}>JULY 12, 2024</p>
                     <p className={styles.times}>5:00 PM - 11:00 PM</p>
                     <p className={styles.addi}>Kent Event Center</p>
-                    <p className={styles.addy}>10120 SE 260th St, KENT, WA, 98030</p>
+                    <p className={styles.addy}>10120 SE 260th St, KENT, WA 98030</p>
                 </div>
 
 
