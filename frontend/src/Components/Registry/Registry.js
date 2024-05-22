@@ -16,7 +16,7 @@ const Registry = () => {
 
                     </h4>
                     <h4>
-                        Please know that we do not expect gifts, but if you still feel inclinded to
+                        Please know that we do not expect gifts, but if you still feel inclined to
                         gift us something, please use our venmo link below.
                     </h4>
 
