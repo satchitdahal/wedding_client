@@ -128,7 +128,7 @@ const Home = () => {
                     //  style={{ marginRight: '8px' }} 
 
                     />
-                    <p style={{ margin: 0, fontSize: '1.2em', color: 'rgba(0,0,0,0.8', fontFamily: 'Libre Baskerville' }}>gift registry</p>
+                    <p style={{ margin: 0, fontSize: '1.05em', color: 'rgba(0,0,0,0.8', fontFamily: 'Libre Baskerville', padding: '.5em' }}>gift registry</p>
                 </Link>
 
                 <Modal
