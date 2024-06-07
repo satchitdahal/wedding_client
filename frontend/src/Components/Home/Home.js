@@ -16,6 +16,10 @@ import bl from "../images/bottom_left.jpg"
 import br from "../images/bottom_right.jpg"
 import construction from "../images/construction.jpg"
 import { Swiper, SwiperSlide } from "swiper"
+import { Link } from "react-router-dom";
+import { CiGift } from "react-icons/ci";
+import { FaGift } from "react-icons/fa6";
+
 
 
 
@@ -31,7 +35,12 @@ const Home = () => {
         e.preventDefault();
         window.location.href = 'https://www.zola.com/wedding/ishani-sudur';
     };
+
+
+
     return (
+
+
 
         <>
 
@@ -100,9 +109,28 @@ const Home = () => {
                 <div className={styles.rsvp}>
                     <button onClick={handleRSVP}><MdOutlineRsvp size={36} /></button>
                 </div>
+
+
+
                 <div className={styles.pls_div}>
                     <p className={styles.pls_p}>
-                        Please RSVP by April 15th</p>                </div>
+                        Please RSVP by April 15th</p>
+                </div>
+
+                {/* <Link to='/registry' className={styles.rsvp}>
+
+                    <CiGift size={36} style={{ marginTop: '6px' }} />
+                    <p>gift registry</p>
+                </Link> */}
+
+                <Link to="/registry" className={styles.rsvp} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', textDecoration: 'none', padding: '3.5em', marginBottom: '-3.2em', marginTop: '1em' }}>
+                    <FaGift size={55} color="rgba(0, 0, 0, 0.7) "
+                    //  style={{ marginRight: '8px' }} 
+
+                    />
+                    <p style={{ margin: 0, fontSize: '1.2em', color: 'rgba(0,0,0,0.8', fontFamily: 'Libre Baskerville' }}>gift registry</p>
+                </Link>
+
                 <Modal
                     isOpen={underConstruction}
                     onRequestClose={handleCloseModal}
