@@ -19,6 +19,7 @@ import { Swiper, SwiperSlide } from "swiper"
 import { Link } from "react-router-dom";
 import { CiGift } from "react-icons/ci";
 import { FaGift } from "react-icons/fa6";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 
 
@@ -107,14 +108,14 @@ const Home = () => {
                 </div> */}
 
                 <div className={styles.rsvp}>
-                    <button onClick={handleRSVP}><MdOutlineRsvp size={36} /></button>
+                    <button onClick={handleRSVP}><FaExternalLinkAlt size={36} /></button>
                 </div>
 
 
 
                 <div className={styles.pls_div}>
                     <p className={styles.pls_p}>
-                        Please RSVP by April 15th</p>
+                        Continue to RSVP and Registry</p>
                 </div>
 
                 {/* <Link to='/registry' className={styles.rsvp}>
@@ -123,13 +124,13 @@ const Home = () => {
                     <p>gift registry</p>
                 </Link> */}
 
-                <Link to="/registry" className={styles.rsvp} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', textDecoration: 'none', padding: '3.5em', marginBottom: '-3.2em', marginTop: '1em' }}>
+                {/* <Link to="/registry" className={styles.rsvp} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', textDecoration: 'none', padding: '3.5em', marginBottom: '-3.2em', marginTop: '1em' }}>
                     <FaGift size={55} color="rgba(0, 0, 0, 0.7) "
                     //  style={{ marginRight: '8px' }} 
 
                     />
                     <p style={{ margin: 0, fontSize: '1.05em', color: 'rgba(0,0,0,0.8', fontFamily: 'Libre Baskerville', padding: '.5em' }}>gift registry</p>
-                </Link>
+                </Link> */}
 
                 <Modal
                     isOpen={underConstruction}

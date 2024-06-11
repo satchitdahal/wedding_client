@@ -27,23 +27,19 @@ const Navbar = () => {
             <Link to='/'>
                 <img src={logo} alt="/" />
             </Link>
-            <nav>
+            {/* <nav>
                 <ul className={nav ? [styles.menu, styles.active].join(' ') :
                     [styles.menu]}>
 
                     <li>
-                        {/* <Link to='/registry'>
-                            <CiGift size={25} style={{ marginTop: '6px' }} />
-                        </Link> */}
+
                         <Link to='/registry' onClick={handleLinkClick}>
                             <CiGift size={25} style={{ marginTop: '6px' }} />
                         </Link>
 
                     </li>
                     <li>
-                        {/* <Link to='/registry'>
-                            <CiGift size={25} style={{ marginTop: '6px' }} />
-                        </Link> */}
+                      
                         <Link to='/faq' onClick={handleLinkClick}>
                             <FaQuestion size={25} style={{ marginTop: '6px' }} />
                         </Link>
@@ -51,7 +47,7 @@ const Navbar = () => {
                     </li>
 
                 </ul>
-            </nav>
+            </nav> */}
 
             <div className={styles.mobile_btn} onClick={() => setNav(!nav)}>
                 {nav ? <FaWindowClose size={25} /> : <IoMenu size={25} />}
