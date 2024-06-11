@@ -49,11 +49,11 @@ const Navbar = () => {
                 </ul>
             </nav> */}
 
-            <div className={styles.mobile_btn} onClick={() => setNav(!nav)}>
+            {/* <div className={styles.mobile_btn} onClick={() => setNav(!nav)}>
                 {nav ? <FaWindowClose size={25} /> : <IoMenu size={25} />}
 
 
-            </div>
+            </div> */}
 
         </header>
 
